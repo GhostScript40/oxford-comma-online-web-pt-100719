@@ -1,7 +1,5 @@
 require 'pry'
 def oxford_comma(array)
-string = ""
-  
   if array.length == 1
     array.join
     elsif
