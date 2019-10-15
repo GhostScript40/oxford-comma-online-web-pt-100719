@@ -1,6 +1,7 @@
 require 'pry'
 def oxford_comma(array)
 string = ""
+array.each |do|
 if array.length == 1
   array.join
   elsif
