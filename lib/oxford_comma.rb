@@ -1,7 +1,6 @@
 require 'pry'
 def oxford_comma(array)
 string = ""
-array.each do |word|
   if array.length == 1
     array.join
     elsif
@@ -11,6 +10,5 @@ array.each do |word|
     array.length >= 3
     array.insert(-2, "and ")
     array.join(", ")
-    end
   end
 end
